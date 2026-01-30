@@ -1,0 +1,38 @@
+{
+  "name": "arouse_backend",
+  "version": "1.0.0",
+  "description": "Backend API for automotive platform",
+  "main": "dist/server.js",
+  "scripts": {
+    "dev": "ts-node-dev --respawn --transpile-only src/server.ts",
+    "build": "tsc",
+    "start": "node dist/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@types/multer": "^2.0.0",
+    "axios": "^1.6.7",
+    "bcrypt": "latest",
+    "bcryptjs": "^3.0.3",
+    "cors": "latest",
+    "csv-parser": "^3.2.0",
+    "dotenv": "latest",
+    "express": "latest",
+    "json2csv": "^6.0.0-alpha.2",
+    "jsonwebtoken": "latest",
+    "mongoose": "latest",
+    "multer": "^2.0.2"
+  },
+  "devDependencies": {
+    "@types/bcrypt": "latest",
+    "@types/cors": "^2.8.19",
+    "@types/express": "latest",
+    "@types/jsonwebtoken": "latest",
+    "@types/node": "latest",
+    "ts-node-dev": "latest",
+    "typescript": "latest"
+  }
+}

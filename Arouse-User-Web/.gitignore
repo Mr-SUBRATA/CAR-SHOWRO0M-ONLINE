@@ -1,0 +1,68 @@
+# Misc
+.env
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+
+# IDE
+.idea/
+.atom/
+.vscode/
+*.iml
+*.ipr
+*.iws
+
+# Flutter & Dart
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub/
+.pub-cache/
+build/
+coverage/
+Generated.xcconfig
+flutter_export_environment.sh
+
+# Android build
+/android/app/debug
+/android/app/profile
+/android/app/release
+/android/.gradle/
+android/build/
+
+# iOS build
+/ios/Pods/
+/ios/Runner.xcworkspace/
+/ios/Flutter/Flutter.framework
+/ios/Flutter/App.framework
+/ios/build/
+/ios/.symlinks/
+/ios/Flutter/.last_build_id
+/ios/*.xcuserstate
+
+# Web related
+web/node_modules/
+web/.firebase/
+web/dist/
+web/.cache/
+web/.dart_tool/
+web/.flutter-plugins/
+web/.flutter-plugins-dependencies
+
+# Symbolication
+app.*.symbols
+
+# Obfuscation
+app.*.map.json
+
+# Generated plugin registrants
+**/generated_plugin_registrant.dart
+**/generated_plugin_registrant.h
+**/generated_plugin_registrant.cc
+**/generated_plugins.cmake
+**/GeneratedPluginRegistrant.swift
+**/GeneratedPluginRegistrant.h
+**/GeneratedPluginRegistrant.m
